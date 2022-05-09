@@ -1,0 +1,118 @@
+#wrapper{
+
+}
+#header{
+
+}
+#menu{
+
+}
+#main_content{
+
+}
+#footer{
+
+}
+#logo{
+    width: 20%;
+    float: left;
+}
+#banner{
+    width: 80%;
+    float: left;
+    background: linear-gradient(to right,#FFF 0%,#FFF -50%, transparent), url("../image/banner.jpg"), no-repeat, right ;
+    aspect-ratio: 6/1;
+    background-size: 100% 100%;
+    height: 100%;
+}
+#logo_img{
+    width: 100%;
+}
+#banner_img{
+    width: 100%;
+    aspect-ratio: 6/1;
+}
+#menu_bar{
+    background-color: bisque;
+}
+.menu_item{
+    display: inline-block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.menu_item:hover{
+background: rgb(83, 116, 234);
+}
+
+.item{
+width: 32%;
+float: left;
+box-shadow: 1px 1px 1px 1px;
+border-radius: 20px;
+padding: 15px;
+text-align: center;
+}
+.img_item_frame{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.image_item{
+    width: 90%;
+    aspect-ratio: 4/3;
+    border-radius: 20px;
+    transition: 1000ms ease-in-out;
+}
+.image_item:hover{
+    transform: scale(1.1);
+    transition: 1000ms ease-in-out;
+    
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: burlywood;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+.item_title{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#content p{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+span.price{
+    font-weight: bold;
+    color: blue;
+}
+.old_price{
+    font-weight: 600px;
+    color: red;
+}
+p.para_button{
+    text-align: center;
+}
+button.add_basket{
+    font-size: 24px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.add_basket:hover{
+    background: rgb(219, 217, 92);
+    color: rgb(21, 118, 23); /* lia chuột*/
+}
+.carouselcarousel-item img{
+    aspect-ratio: 4/3;
+    
+
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> type="text/javascript"
+                function calSum(){
+                    var fistNum = prompt("Nhap so thu nhat:");
+                    fistNum = parseFloat(fistNum); // parseInt()
+                    var secondNum = prompt("Nhap so thu hai:");
+                    secondNum = parseFloat(secondNum);
+                    alert (" Ket qua la:"+(fistNum+secondNum));
+                }
+
+                function sayHello(){
+                    var name = prompt("Nhap ten:");
+                    alert (" Xin Chao:"+name +"!");
+                }
+                
+                function calAge(){
+                    var birthYear = prompt("Nhap nam sinh:");
+                    birthYear = parseInt(birthYear);
+                    var age =2022 -birthYear;
+                   // alert ("Tuoi la:"+ age);
+                   //console.log ("Tuoi la:"+ age);
+                  // document.write("Tuoi la:"+ age);
+                  document.getElementById("content").innerHTML = "Tuoi la:"+ age;
+                }
+    </script>
+</head>
+<body>
+    <div id ="content"></div>
+    <button onclick="if(confirm('Tinh Tong'))calSum()">Tính Tổng</button>
+    <button onclick="sayHello()">Chao hoi</button>
+    <button onclick="calAge()">Tinh tuoi</button>
+    
+</body>
+</html>
